@@ -1,5 +1,5 @@
 .header {
-    background-color: blue;
+    background-color: lightblue;
     padding: 30px;
     text-align: center;
     border: 1px solid black;
@@ -12,7 +12,6 @@
 
 .column {
     padding: 10px;
-    height: 300px;
     border: 1px solid black;
 }
 
@@ -20,7 +19,10 @@
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background-color: purple;
+    background-color: lightgreen;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 1200px;
 }
 
 .column.main {
@@ -30,10 +32,11 @@
     background-color: lightgrey;
     border: 1px solid black;
     text-align: center;
+    margin: auto
 }
 
 .footer {
-    background-color: red;
+    background-color: pink;
     padding: 10px;
     text-align: center;
     border: 1px solid black;
@@ -44,4 +47,9 @@
         -webkit-flex-direction: column;
         flex-direction: column;
     }
+}
+
+.sideVideo {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
