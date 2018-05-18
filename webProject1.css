@@ -3,6 +3,7 @@
     padding: 30px;
     text-align: center;
     border: 1px solid black;
+    font-size: 2em;
 }
 
 .row {
@@ -36,9 +37,10 @@
 }
 
 .footer {
-    background-color: pink;
+    background-color: black;
     padding: 10px;
     text-align: center;
+    color: white;
     border: 1px solid black;
 }
 
