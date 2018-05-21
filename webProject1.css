@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(to right, darkred, black, darkred);
+    background: linear-gradient(to right, darkred, rgb(73, 67, 67), darkred);
     padding: 30px;
     text-align: center;
     border: 1px solid black;
